@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Times, Verdana, sans-serif;
+	list-style: inside;
+	text-indent: 0.4cm;
+	background-image: url("fondo.png");
+}
+#C{
+	position: relative;
+	background-color: rgba(0,0,0, .5);
+	width: 800px;
+	height: 200px;
+	left: auto;
+	margin: 10px auto;
+	border-radius: 30px;
+}
+img{
+	position: absolute;
+	top: 25px;
+	left: 625px;
+	border-radius: 25%;
+}
+
+#hola{
+	background-color: #fff;
+}
+#S{
+	color: transparent;
+}
+#S:hover{
+	color: red;
+}
+#yol{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#Ex{
+	position: relative;
+	background-color: rgba(0,0,0, .5);
+	top: 125px;
+	left: 0px;
+	width: 375px;
+	height: 275px;
+	border-radius: 30px;
+}
+#Ho{
+	position: relative;
+	background-color: rgba(0,0,0, .5);
+	top: 125px;
+	left: 20px;
+	width: 400px;
+	height: 275px;
+	border-radius: 30px;
+}
+#Hb{
+	position: relative;
+	background-color: rgba(0,0,0, .5);
+	top: 50px;
+	left: -400px;
+	width: 800px;
+	height: 200px;
+	border-radius: 30px;
+}
+#tbl{
+	position: relative;
+	text-indent: 2.2cm;
+	left: -70px;
+	color: rgb(255,255,255);
+}
+.lista>li{
+	list-style-image: url("rupee_opt.png");
+	color: rgb(255,255,255);	
+}
+#gif1{
+	position: absolute;
+	top: 25px;
+	left: -1165px;
+}
+#gif2{
+	position: absolute;
+	top: 25px;
+	left: 50px;
+}
+#ref{
+	position: relative;
+	top: 30px;
+	background-color: rgba(0,0,0, .5);
+	width: 800px;
+	height: 250   px;
+	border-radius: 30px;
+}
